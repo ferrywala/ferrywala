@@ -14,9 +14,8 @@
 ---
 
 ## 🌐 Live Demo  
-👉 **https://[yourusername](https://ferywala.com/).github.io/ferrywala**
+👉 **https://[ferywala.com].github.io/ferrywala**
 
-(Replace `yourusername` with your GitHub username)
 
 ---
 
@@ -56,7 +55,7 @@
 
 ## 🧑‍💻 Author
 **FerryWala** — An open-source static e-commerce project  
-Created by [Your Name](https://github.com/yourusername)
+Created by [ferywala.com](https://github.com/yourusername)
 
 ---
 
