@@ -1,26 +1,68 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Welcome to My Site</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: linear-gradient(120deg, #74ABE2, #5563DE);
-      color: white;
-      text-align: center;
-      margin-top: 100px;
-    }
-    h1 {
-      font-size: 48px;
-    }
-    p {
-      font-size: 20px;
-    }
-  </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ferrywala - Demo E‑Commerce</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>🎉 My First HTTPS Website!</h1>
-  <p>Hosted free on GitHub Pages + Freenom Domain</p>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">MyShop</h1>
+      <nav class="nav">
+        <a href="#" class="nav-link">Home</a>
+        <a href="#" class="nav-link">Products</a>
+        <a href="#" class="nav-link">Contact</a>
+        <button id="cart-toggle" class="cart-btn">Cart (<span id="cart-count">0</span>)</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <h2>Discover the Latest Products</h2>
+        <p>Shop our newest arrivals in fashion, electronics, and accessories.</p>
+        <a class="btn" href="#products">Shop Now</a>
+      </div>
+      <img src="images/hero.svg" alt="hero illustration" class="hero-img" />
+    </section>
+
+    <section id="products" class="products-section">
+      <aside class="filters">
+        <h3>Filter</h3>
+        <label><input type="checkbox" class="filter" value="all" checked> All</label>
+        <label><input type="checkbox" class="filter" value="clothing"> Clothing</label>
+        <label><input type="checkbox" class="filter" value="electronics"> Electronics</label>
+        <label><input type="checkbox" class="filter" value="accessories"> Accessories</label>
+      </aside>
+
+      <section class="product-grid" id="product-grid">
+        <!-- Product cards injected by script.js -->
+      </section>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> MyShop — Demo site. No real payments.</p>
+    </div>
+  </footer>
+
+  <!-- Cart Modal -->
+  <div id="cart-modal" class="modal hidden">
+    <div class="modal-content">
+      <button id="cart-close" class="modal-close">×</button>
+      <h3>Your Cart</h3>
+      <div id="cart-items"></div>
+      <div class="cart-summary">
+        <strong>Total: $<span id="cart-total">0.00</span></strong>
+        <button id="checkout-btn" class="btn">Checkout (Demo)</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
