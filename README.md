@@ -14,7 +14,7 @@
 ---
 
 ## 🌐 Live Demo  
-👉 **https://yourusername.github.io/ferrywala**
+👉 **https://[yourusername](https://ferywala.com/).github.io/ferrywala**
 
 (Replace `yourusername` with your GitHub username)
 
