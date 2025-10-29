@@ -14,7 +14,7 @@
 ---
 
 ## 🌐 Live Demo  
-👉 **https://[https://ferywala.com/]**
+👉 **https://[https://ferrywala.com/]**
 
 
 ---
@@ -34,7 +34,7 @@
 
 ## 🧑‍💻 Author
 **FerryWala** — An open-source static e-commerce project  
-Created by [[https://ferywala.com](https://ferywala.com/))
+Created by [[https://ferrywala.com](https://ferrywala.com/))
 
 ---
 
